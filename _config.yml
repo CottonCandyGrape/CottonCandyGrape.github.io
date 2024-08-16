@@ -22,7 +22,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : CCG Tech Blog 
 description: > # this means to ignore newlines until "Language & timezone"
-  Unity3D, C# Tech Blog 
+  Unity3D Game Tech Blog 
 
 ## => Language and Timezone
 ##############################
