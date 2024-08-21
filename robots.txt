@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://cottoncandygrape.github.io/sitemap.xml
