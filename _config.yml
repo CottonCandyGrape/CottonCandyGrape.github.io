@@ -129,7 +129,7 @@ comments:
     clientSecret: ec5765c604be2b34bb8d81483aaaa22b6cbd2873 # GitHub Application Client Secret
     repository  : Comments # GitHub repo
     owner       : CottonCandyGrape # GitHub repo owner
-    admin: - CottonCandyGrape # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    admin: ['CottonCandyGrape'] # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
