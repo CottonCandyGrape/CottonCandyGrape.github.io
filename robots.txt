@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /feed.xml
 
 Sitemap: http://cottoncandygrape.github.io/sitemap.xml
