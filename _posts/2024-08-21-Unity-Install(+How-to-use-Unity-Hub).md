@@ -2,7 +2,6 @@
 layout: article 
 title : 유니티 설치하기(+Unity Hub 사용방법)
 excerpt: Unity Hub를 설치하여 에디터 버전을 관리하고 프로젝트를 생성하는 방법을 알아봅니다.
-comments: true
 ---
 
 ## 목차
