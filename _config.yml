@@ -116,20 +116,20 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: cottoncandygrape # the Disqus shortname for the site
+    shortname: # cottoncandygrape # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : Ov23lidBDTE54NDUz2uD # GitHub Application Client ID
+    clientSecret: ec5765c604be2b34bb8d81483aaaa22b6cbd2873 # GitHub Application Client Secret
+    repository  : Comments # GitHub repo
+    owner       : CottonCandyGrape # GitHub repo owner
+    admin: - CottonCandyGrape # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
