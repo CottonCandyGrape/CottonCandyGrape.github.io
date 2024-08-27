@@ -1,6 +1,7 @@
 ---
 layout: article 
 title : 유니티 허브 다운로드(+사용 방법)
+tags: Basic Editor
 excerpt: Unity Hub를 설치하여 에디터 버전을 관리하고 프로젝트를 생성하는 방법을 알아봅니다.
 ---
 
@@ -24,58 +25,58 @@ excerpt: Unity Hub를 설치하여 에디터 버전을 관리하고 프로젝트
 
 위 링크에 접속하면 아래와 같은 화면이 나오고 빨간 박스 중 편한것을 골라 **Unity Hub 설치 파일**을 다운로드 합니다.
 
-![Unity Hub 다운로드 페이지]({{ site.baseurl }}/assets/postImgs/20240726/UnityHubDownloadPage.png)
+![Unity Hub 다운로드 페이지]({{ site.baseurl }}/assets/postImgs/20240821/UnityHubDownloadPage.png)
 
 **`설치 파일을 실행`{:.info}**시키고 다음과 같은 순서로 설치를 진행합니다.
 
 - **`동의함`{:.info}** 선택.
 
-![Unity Hub install 01]({{ site.baseurl }}/assets/postImgs/20240726/hubInstall01.png)
+![Unity Hub install 01]({{ site.baseurl }}/assets/postImgs/20240821/hubInstall01.png)
 <br/>
 
 - 설치하기 원하는 **`경로 선택`{:.info}** 후 **`설치`{:.info}** 버튼 선택.
 
-![Unity Hub install 02]({{ site.baseurl }}/assets/postImgs/20240726/hubInstall02.png)
+![Unity Hub install 02]({{ site.baseurl }}/assets/postImgs/20240821/hubInstall02.png)
 <br/>
 
 - 그리고 기다리시면 **`자동으로 설치가 완료`{:.info}**되고 다음과 같은 화면이 나옵니다.
 
-![Unity Hub install 03]({{ site.baseurl }}/assets/postImgs/20240726/hubInstall03.png)
+![Unity Hub install 03]({{ site.baseurl }}/assets/postImgs/20240821/hubInstall03.png)
 
 ---
 ## Step 2. Unity Hub 로그인하기
 
 - Unity Hub를 실행하면 맨 처음 로그인을 하라고 다음과 같은 화면이 나옵니다. 빨간 박스를 누르면 유니티 로그인 웹 페이지로 이동하게 되는데 로그인을 하고 돌아옵니다. 아직 계정이 없으신 분들은 회원가입을 해주세요.
 
-![Unity Hub Setting 01]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting01.png)
+![Unity Hub Setting 01]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting01.png)
 <br/>
 
 > - <u>로그인 후 다음 화면이 바로 나오면</u> 빨간 박스의 **`Agree`**를 누르고 **<u>이번 Step 은 건너뛰셔도 됩니다.</u>** 아닌 분들은 이 다음 과정들을 진행해 주세요.
 
 
-![Unity Hub Setting 0202]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting0202.png)
+![Unity Hub Setting 0202]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting0202.png)
 <br/>
 
 - 로그인을 하면 `왼쪽 상단`{:.info}에 **`계정 이미지`{:.info}**가 나타나고 `가운데`{:.info}에 **`라이센스가 없다는 경고`{:.warning}**가 나옵니다. **`톱니바퀴`{:.info}**나 **`Manage licenses`{:.info}** 버튼을 눌러서 라이센스를 등록해 줍니다.
 
-![Unity Hub Setting 0201]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting0201.png)
+![Unity Hub Setting 0201]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting0201.png)
 <br/>
 
 - 좌측의 **`Licenses`{:.info}**탭을 선택하고 **`Add license`{:.info}**를 클릭합니다.
 
-![Unity Hub Setting 03]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting03.png)
+![Unity Hub Setting 03]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting03.png)
 <br/>
 
 - 기존에 사용하고 있던 라이센스가 있지 않고 학습, 취미 등 일반적인 사용자라면 빨간 박스의 **`Get a free personal license`{:.info}**를 클릭합니다. 그리고 다음 순서대로 빨간 박스를 클릭합니다.
 
-![Unity Hub Setting 04]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting04.png)
-![Unity Hub Setting 05]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting05.png)
+![Unity Hub Setting 04]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting04.png)
+![Unity Hub Setting 05]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting05.png)
 <br/>
 
 - 최종적으로 **`Personal License가 생성`{:.success}**되었고 다시 **`Projects`{:.info}** 탭으로 돌아가면 `경고 표시가 사라진 것`{:.info}을 확인할 수 있습니다.
 
-![Unity Hub Setting 06]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting06.png)
-![Unity Hub Setting 07]({{ site.baseurl }}/assets/postImgs/20240726/hubSetting07.png)
+![Unity Hub Setting 06]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting06.png)
+![Unity Hub Setting 07]({{ site.baseurl }}/assets/postImgs/20240821/hubSetting07.png)
 
 ---
 ## Step 3. Unity Hub로 버전 관리하기
@@ -88,7 +89,7 @@ excerpt: Unity Hub를 설치하여 에디터 버전을 관리하고 프로젝트
 
 - 원하는 버전을 선택했으면 허브 설치의 **`INSTALL->`{:.info}** 버튼을 클릭합니다. 저는 **<u>2022.3.39f1 버전</u>**을 설치해보겠습니다.
 
-![Editor Download 01]({{ site.baseurl }}/assets/postImgs/20240726/editorDownload01.png)
+![Editor Download 01]({{ site.baseurl }}/assets/postImgs/20240821/editorDownload01.png)
 <br/>
 
 - 첫 번째 체크박스는 **`Visual Studio 2022`{:.info}**를 설치할 것인지 선택합니다. 다른 버전을 쓰고 계시면 굳이 설치하지 않으셔도 됩니다. 
@@ -96,34 +97,34 @@ excerpt: Unity Hub를 설치하여 에디터 버전을 관리하고 프로젝트
 
 > 그 밑에 `IOS Build Support`는 `Mac`에서만 정상 작동합니다. <u>Windows에서는 IOS 빌드가 안됩니다.</u> (하는 방법이 있다고는 하는데 Mac을 사용하는 것이 정신건강에 더 좋다고 합니다...)
 
-![Editor Download 02]({{ site.baseurl }}/assets/postImgs/20240726/editorDownload02.png)
+![Editor Download 02]({{ site.baseurl }}/assets/postImgs/20240821/editorDownload02.png)
 <br/>
 
 - 안드로이드 관련 동의를 해주시고 **`Install`{:.info}**
 
-![Editor Download 03]({{ site.baseurl }}/assets/postImgs/20240726/editorDownload03.png)
-![Editor Download 04]({{ site.baseurl }}/assets/postImgs/20240726/editorDownload04.png)
+![Editor Download 03]({{ site.baseurl }}/assets/postImgs/20240821/editorDownload03.png)
+![Editor Download 04]({{ site.baseurl }}/assets/postImgs/20240821/editorDownload04.png)
 <br/>
 
 - 설치가 완료되고 Unity Hub 좌측의 **`Installs`{:.info}** 탭을 선택하면 방금 설치한 버전(**2022.3.39f1 LTS**)이 추가된 것을 볼 수 있습니다.
 
-![Editor Download 05]({{ site.baseurl }}/assets/postImgs/20240726/editorDownload05.png)
+![Editor Download 05]({{ site.baseurl }}/assets/postImgs/20240821/editorDownload05.png)
 
 ---
 ## Step 4. 프로젝트 생성하기
 
 - **`Projects`{:.info}**탭의 우측 상단에서 **`New project`{:.info}** 버튼을 눌러 프로젝트를 생성합니다.
 
-![Create Project 01]({{ site.baseurl }}/assets/postImgs/20240726/createProj01.png)
+![Create Project 01]({{ site.baseurl }}/assets/postImgs/20240821/createProj01.png)
 <br/>
 
 - 화면 `상단 가운데`{:.info}에 `설치된 버전`{:.info}이 표시되고 여러개가 설치되면 클릭하여 버전을 선택할 수 있습니다. 그 밑의 박스는 **프로젝트를 2D로 할 것인지 3D로 할 것인지 정하는 것**인데 <u>그리 중요하지 않습니다.</u> **프로젝트를 생성한 후에 내부에서도 수정할 수 있습니다.**
 
 - `화면 우측`{:.info}에서 프로젝트 **`이름`{:.info}**과 **`경로`{:.info}**를 정해주고 **`Create project`{:.info}**를 눌러 **프로젝트를 생성**합니다.
 
-![Create Project 02]({{ site.baseurl }}/assets/postImgs/20240726/createProj02.png)
+![Create Project 02]({{ site.baseurl }}/assets/postImgs/20240821/createProj02.png)
 <br/>
 
 - 다시 **`Projects`{:.info}**탭으로 돌아오면 **`설정한 버전`{:.info}**으로 **`프로젝트가 생성된 것`{:.success}**을 확인할 수 있습니다.
 
-![Create Project 03]({{ site.baseurl }}/assets/postImgs/20240726/createProj03.png)
+![Create Project 03]({{ site.baseurl }}/assets/postImgs/20240821/createProj03.png)
