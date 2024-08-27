@@ -198,6 +198,8 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - naverebdb33d4b81002251bfea4476db67d18.html
+  - google0c14382b9f725f06.html
 
 defaults:
   - scope:
