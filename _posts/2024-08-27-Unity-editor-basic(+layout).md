@@ -137,7 +137,7 @@ Default 레이아웃은 균형 잡힌 구성이지만, 프로젝트 특성에 �
     - 작업 중 레이아웃이 흐트러져도 저장된 레이아웃을 불러올 수 있습니다. 
 
 ---
-제 게임을 플레이하고 싶으신 분들은 다음 링크를 이용해 주세요~!
+**제 게임을 플레이하고 싶으신 분들은 다음 링크를 이용해 주세요~!**
 
 <!--
 [구글 플레이 스토어 : BunnyBunny](https://play.google.com/store/apps/details?id=com.ccGrape.BunnyBunny&pcampaignid=web_share)       
