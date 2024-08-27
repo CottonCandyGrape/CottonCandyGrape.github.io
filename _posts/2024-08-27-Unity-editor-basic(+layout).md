@@ -6,8 +6,8 @@ excerpt: 유니티 에디터 기초 용어와 사용법을 알아봅니다. 각 
 ---
 
 ## 목차
-**[Step 1. 유니티 에디터 각 부분 용어 및 설명](#step-1.-유니티-에디터-각-부분-용어-및-설명)**<br/>
-**[Step 2. 개발 상황별 알맞는 에디터 레이아웃](#step-2.-개발-상황별-알맞는-에디터-레이아웃)**<br/>
+**[Step 1. 유니티 에디터 각 부분 용어 및 설명](#step-1-유니티-에디터-각-부분-용어-및-설명)**<br/>
+**[Step 2. 개발 상황별 알맞는 에디터 레이아웃](#step-2-개발-상황별-알맞는-에디터-레이아웃)**<br/>
 
 ---
 해당 포스팅은 `Windows OS`{:.info}, `Unity 2022.3.15f1`{:.info}을 기준으로 작성되었습니다.
@@ -139,5 +139,10 @@ Default 레이아웃은 균형 잡힌 구성이지만, 프로젝트 특성에 �
 ---
 제 게임을 플레이하고 싶으신 분들은 다음 링크를 이용해 주세요~!
 
+<!--
 [구글 플레이 스토어 : BunnyBunny](https://play.google.com/store/apps/details?id=com.ccGrape.BunnyBunny&pcampaignid=web_share)       
 [앱 스토어 : BunnyBunny](https://apps.apple.com/ca/app/bunnybunny-io/id6504274647?platform=iphone)
+-->
+
+
+{ % linkpreview "https://play.google.com/store/apps/details?id=com.ccGrape.BunnyBunny&pcampaignid=web_share" % }
