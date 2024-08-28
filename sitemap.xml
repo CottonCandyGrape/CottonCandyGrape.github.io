@@ -9,17 +9,32 @@
 
 <url>
   <loc>https://cottoncandygrape.github.io/</loc>
-  <lastmod>2024-08-20T08:55:28+00:00</lastmod>
+  <lastmod>2024-08-28T10:28:09+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/archive.html</loc>
-  <lastmod>2024-08-20T08:55:28+00:00</lastmod>
+  <lastmod>2024-08-28T10:28:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cottoncandygrape.github.io/2024/07/26/Unity-Install(+How-to-use-Unity-Hub).html</loc>
-  <lastmod>2024-08-20T08:55:28+00:00</lastmod>
+  <loc>https://cottoncandygrape.github.io/2024/08/27/Unity-editor-basic(+layout).html</loc>
+  <lastmod>2024-08-28T10:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cottoncandygrape.github.io/archive.html?tag=Basic</loc>
+  <lastmod>2024-08-28T10:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cottoncandygrape.github.io/archive.html?tag=Editor</loc>
+  <lastmod>2024-08-28T10:28:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cottoncandygrape.github.io/2024/08/21/Unity-hub-download(+How-to-use-Unity-Hub).html</loc>
+  <lastmod>2024-08-28T10:28:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
