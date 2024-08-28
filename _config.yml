@@ -214,7 +214,7 @@ defaults:
       show_edit_on_github: false 
       show_subscribe: false 
       pageview: true
-      key: "{{ page.url | slugify }}"
+      key: {{ page.url | slugify }}
 
 
 ## => Plugins
