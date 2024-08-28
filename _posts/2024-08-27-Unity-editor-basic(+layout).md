@@ -145,4 +145,4 @@ Default 레이아웃은 균형 잡힌 구성이지만, 프로젝트 특성에 �
 
 {% linkpreview "https://play.google.com/store/apps/details?id=com.ccGrape.BunnyBunny" %}
 
-{% linkpreview "https://apps.apple.com/kr/app/bunnybunny-io/id6504274647?platform=iphone" %}
+{% linkpreview "https://apps.apple.com/kr/app/bunnybunny-io/id6504274647?platform=iphone" %} 
