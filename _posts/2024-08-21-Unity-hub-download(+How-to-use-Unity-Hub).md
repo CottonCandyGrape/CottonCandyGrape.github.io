@@ -1,6 +1,7 @@
 ---
 layout: article 
 title : 유니티 허브 다운로드(+사용 방법)
+key : 유니티 허브 다운로드(+사용 방법)
 tags: Basic Editor
 excerpt: Unity Hub를 설치하여 에디터 버전을 관리하고 프로젝트를 생성하는 방법을 알아봅니다.
 ---
