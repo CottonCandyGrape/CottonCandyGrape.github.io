@@ -3,7 +3,7 @@ layout: article
 title : 유니티 에디터 기초 용어(+레이아웃)
 tags: Basic Editor
 excerpt: 유니티 에디터 기초 용어와 사용법을 알아봅니다. 각 개발 상황별로 알맞는 레이아웃을 선택합니다.
-key: sdflksdj
+key: {{ page.url }}
 ---
 
 ## 목차
