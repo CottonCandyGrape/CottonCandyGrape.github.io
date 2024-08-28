@@ -5,6 +5,8 @@ tags: Basic Editor
 excerpt: Unity Hub를 설치하여 에디터 버전을 관리하고 프로젝트를 생성하는 방법을 알아봅니다.
 ---
 
+{{ page.key }}
+
 ## 목차
 **[Step 0. Unity를 설치하기 전에](#step-0-unity를-설치하기-전에)**<br/>
 **[Step 1. Unity Hub 설치하기](#step-1-unity-hub-설치하기)**<br/>
