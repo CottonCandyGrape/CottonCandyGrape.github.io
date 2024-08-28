@@ -138,3 +138,11 @@ Default 레이아웃은 균형 잡힌 구성이지만, 프로젝트 특성에 �
 
 ---
 **제 게임을 플레이하고 싶으신 분들은 다음 링크를 이용해 주세요~!**
+
+
+
+
+
+{% linkpreview "https://play.google.com/store/apps/details?id=com.ccGrape.BunnyBunny" %}
+
+{% linkpreview "https://apps.apple.com/kr/app/bunnybunny-io/id6504274647?platform=iphone" %}
