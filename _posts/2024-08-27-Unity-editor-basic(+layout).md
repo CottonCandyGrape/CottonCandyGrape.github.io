@@ -137,9 +137,8 @@ Default 레이아웃은 균형 잡힌 구성이지만, 프로젝트 특성에 �
     - 그 후 이름을 정하면 현재 레이아웃이 저장이 됩니다.
     - 작업 중 레이아웃이 흐트러져도 저장된 레이아웃을 불러올 수 있습니다. 
 
----
-**제 게임을 플레이하고 싶으신 분들은 다음 링크를 이용해 주세요~!**
+**제 게임을 플레이하고 싶으신 분들은 다음 이미지 링크를 이용해 주세요~!**
+{:.info}
 
-[**구글 플레이 스토어**](https://play.google.com/store/apps/details?id=com.ccGrape.BunnyBunny)
-
-[**애플 앱스토어**](https://apps.apple.com/kr/app/bunnybunny-io/id6504274647?platform=iphone)
+[![애플 앱 스토어]({{ site.baseurl }}/assets/postImgs/appstore.png)](https://apps.apple.com/kr/app/bunnybunny-io/id6504274647?platform=iphone){:.rounded}
+[![구글 플레이 스토어]({{ site.baseurl }}/assets/postImgs/google.png)](https://play.google.com/store/apps/details?id=com.ccGrape.BunnyBunny){:.rounded}
