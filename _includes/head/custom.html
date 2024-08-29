@@ -1,3 +1,64 @@
 <!-- start custom head snippets -->
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a').forEach(link => {
+        const url = link.href;
+    
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(htmlString => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(htmlString, 'text/html');
+    
+                const ogTitle = doc.querySelector('meta[property="og:title"]')?.content;
+                const ogDescription = doc.querySelector('meta[property="og:description"]')?.content;
+                const ogImage = doc.querySelector('meta[property="og:image"]')?.content;
+    
+                if (ogTitle && ogDescription && ogImage) {
+                    const preview = document.createElement('div');
+                    preview.className = 'link-preview';
+                    preview.innerHTML = `
+                        <img src="${ogImage}" alt="${ogTitle}">
+                        <div>
+                            <h3>${ogTitle}</h3>
+                            <p>${ogDescription}</p>
+                        </div>
+                    `;
+                    link.parentNode.insertBefore(preview, link.nextSibling);
+                }
+            })
+            .catch(error => console.error('Error fetching OpenGraph data:', error));
+    });
+});
+</script>
+    
+<!-- 스타일링 추가 -->
+<style>
+    .link-preview {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .link-preview img {
+        max-width: 100px;
+        margin-right: 10px;
+    }
+    .link-preview h3 {
+        margin: 0;
+        font-size: 16px;
+    }
+    .link-preview p {
+        margin: 5px 0 0;
+        font-size: 14px;
+        color: #555;
+    }
+</style>
+    
 <!-- end custom head snippets -->
