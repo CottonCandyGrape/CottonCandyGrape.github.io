@@ -60,6 +60,10 @@ public class Rocket : MonoBehaviour
 위 코드는 Rocket의 `position`{:.info}을 `Vector3.right 방향`{:.info}으로 `speed의 속도`{:.info}로 이동시킵니다.     
 그 다음 if 문은 화면 밖으로 로켓이 나갔을때 다시 로켓을 원위치 시켜주는 코드입니다.
 
+위 코드를 다음 사진처럼 로켓 오브젝트에 붙여줍니다.
+![Rocket Hierarchy]({{ site.baseurl }}/assets/postImgs/20240829/rocketHierarchy.png)
+
+
 다음 영상은 위 코드의 실행 화면 입니다.     
 ![rocket.gif]({{ site.baseurl }}/assets/postImgs/20240829/rocket.gif)
 
