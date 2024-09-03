@@ -53,7 +53,8 @@ void Start() {
 **Tip** : GameObject의 **'생성'**과 **'활성화'**의 차이   
 **생성** : 게임 오브젝트를 처음으로 메모리에 할당하고 씬에 추가하는 과정.   
 **활성화** : 그 오브젝트가 씬에서 동작할 수 있도록 상태를 변경하는 과정.    
-[생성과 활성화의 차이 포스팅](https://cottoncandygrape.github.io/2024/09/03/Unity-Instantiation-vs-Activation.html)
+<i class="far fa-hand-point-right"></i>
+[[생성과 활성화의 차이 포스팅]](https://cottoncandygrape.github.io/2024/09/03/Unity-Instantiation-vs-Activation.html)
 {:.warning}
 
 ### ③ Update()
