@@ -12,7 +12,7 @@ excerpt: 헷갈릴 수 있는 GameOjbect의 생성(Instantiation)과 활성화(A
 **[Step 3. 생성과 활성화의 차이](#step-3-생성과-활성화의-차이)<br/>**
 
 ---
-유니티에서 **GameObject**의 `생성`{:.info}과 `활성화`{:.info}는 서로 다른 개념입니다.   
+유니티에서 **GameObject**의 `생성(Instantiation)`{:.info}과 `활성화(Activation)`{:.info}는 서로 다른 개념입니다.   
 이 두 개념을 이해하는 것은 게임 개발에서 중요한 부분입니다. 아래에서 각각의 **정의**와 **차이점**을 살펴보겠습니다.
 
 ---

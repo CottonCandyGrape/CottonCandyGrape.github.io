@@ -53,7 +53,7 @@ void Start() {
 **Tip** : GameObject의 **'생성'**과 **'활성화'**의 차이   
 **생성** : 게임 오브젝트를 처음으로 메모리에 할당하고 씬에 추가하는 과정.   
 **활성화** : 그 오브젝트가 씬에서 동작할 수 있도록 상태를 변경하는 과정.    
-[자세한 내용]({{ site.baseurl }})
+[자세한 내용](https://cottoncandygrape.github.io/2024/09/03/Unity-Instantiation-vs-Activation.html)
 {:.warning}
 
 ### ③ Update()
@@ -110,5 +110,6 @@ void OnDestroy() {
 ![Unity Lifecycle]({{ site.baseurl }}/assets/postImgs/20240903/lifecycle.png)
 [[이미지 자료 출처 링크]](https://docs.unity3d.com/kr/2021.3/Manual/ExecutionOrder.html)
 
-이만 포스팅을 마치겠습니다.
+---
+이만 포스팅을 마치겠습니다.     
 감사합니다.
