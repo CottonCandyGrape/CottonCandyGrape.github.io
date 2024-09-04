@@ -3,7 +3,7 @@ layout: article
 title : "[Unity3D] FixedUpdate(), Update(), LateUpdate()의 차이와 활용법 - CCGrape"
 key : "[Unity3D] FixedUpdate(), Update(), LateUpdate()의 차이와 활용법 - CCGrape"
 tags: Basic Script 
-excerpt: 생명주기(Lifecycle)에서 반복해서 실행되는 메서드 FixedUpdate(), Update(), LateUpdate()에 대해서 알아봅니다. 
+excerpt: "생명주기(Lifecycle)에서 반복해서 실행되는 메서드 FixedUpdate(), Update(), LateUpdate()에 대해서 알아봅니다."
 ---
 
 ## 목차
