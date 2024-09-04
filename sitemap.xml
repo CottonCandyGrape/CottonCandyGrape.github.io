@@ -9,42 +9,47 @@
 
 <url>
   <loc>https://cottoncandygrape.github.io/</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/archive.html</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cottoncandygrape.github.io/2024/09/04/Unity-FixedUpdate()-vs-Update()-vs-LateUpdate().html</loc>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/2024/09/03/Unity-Lifecycle.html</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/2024/09/03/Unity-Instantiation-vs-Activation.html</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/2024/08/30/Global-Local-Coordinate-basic.html</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/2024/08/29/Unity-object-translate(feat.Update()).html</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/2024/08/27/Unity-editor-basic(+layout).html</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cottoncandygrape.github.io/2024/08/21/Unity-hub-download(+How-to-use-Unity-Hub).html</loc>
-  <lastmod>2024-09-03T11:22:16+00:00</lastmod>
+  <lastmod>2024-09-04T06:50:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
