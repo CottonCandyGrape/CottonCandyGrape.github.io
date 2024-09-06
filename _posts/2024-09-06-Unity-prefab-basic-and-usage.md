@@ -44,16 +44,16 @@ excerpt: 유니티에서 가장 편리한 기능 중 하나인 프리팹(prefab)
 2. **사용**
     - 스크립트나 Unity의 하이라키 창을 통해 언제든지 해당 아이템 프리팹(prefab)을 인스턴스화하여 게임에 추가할 수 있습니다.
 
-- **예시 코드**     
+    - **예시 코드**     
 
-```csharp
-public GameObject bombPrefab;
-
-void SpawnBomb(Vector3 position)
-{
-    Instantiate(bombPrefab, position, Quaternion.identity);
-}
-```
+    ```csharp
+    public GameObject bombPrefab;
+    
+    void SpawnBomb(Vector3 position)
+    {
+        Instantiate(bombPrefab, position, Quaternion.identity);
+    }
+    ```
 
 ---
 ## Step 3. 프리팹(prefab)의 장단점
