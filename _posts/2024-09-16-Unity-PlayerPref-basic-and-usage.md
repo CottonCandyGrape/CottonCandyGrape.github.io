@@ -1,7 +1,7 @@
 ---
 layout: article 
-title : "[Unity3D] 유니티 PlayerPrefs의 기초와 활용법 - CCGrape"
-key : "[Unity3D] 유니티 PlayerPrefs의 기초와 활용법 - CCGrape"
+title : "[Unity3D] 유니티 PlayerPrefs를 활용한 데이터 관리 - CCGrape"
+key : "[Unity3D] 유니티 PlayerPrefs를 활용한 데이터 관리 - CCGrape"
 tags: Basic Script 
 excerpt: 유니티에서 정보를 저장하는 유용한 방법 중 하나인 PlayerPrefs에 대해서 알아봅니다. 
 ---
@@ -9,8 +9,8 @@ excerpt: 유니티에서 정보를 저장하는 유용한 방법 중 하나인 P
 ## 목차
 **[Step 1. PlayerPrefs란 무엇인가?](#step-1-playerprefs란-무엇인가)<br/>**
 **[Step 2. 게임에서의 PlayerPrefs 활용법](#step-2-게임에서의-playerprefs-활용법)<br/>**
-**[Step 3. PlayerPrefs의 활용처](#step-3-playerprefs의-활용처)<br/>**
-**[Step 4. PlayerPrefs 데이터 저장 위치](#step-4-playerprefs-데이터-저장-위치)<br/>**
+**[Step 3. PlayerPrefs의 사용 용도](#step-3-playerprefs의-사용-용도)<br/>**
+**[Step 4. PlayerPrefs 데이터 저장 경로](#step-4-playerprefs-데이터-저장-경로)<br/>**
 **[Step 5. 마무리 요약](#step-5-마무리-요약)<br/>**
 
 ---
@@ -138,7 +138,7 @@ void LoadGameProgress()
 ```
 
 ---
-## Step 3. PlayerPrefs의 활용처
+## Step 3. PlayerPrefs의 사용 용도 
 
 PlayerPrefs는 `가벼운 데이터 저장`{:.info}에 매우 적합합니다. 
 하지만 **대량의 데이터**나 `민감한 데이터(현금성 아이템 등)`{:.warning}를 저장하는 데는 적합하지 않습니다. 
@@ -160,11 +160,11 @@ PlayerPrefs는 `가벼운 데이터 저장`{:.info}에 매우 적합합니다.
 
 
 ---
-## Step 4. PlayerPrefs 데이터 저장 위치
+## Step 4. PlayerPrefs 데이터 저장 경로
 
 PlayerPrefs로 저장된 데이터는 각 플랫폼에 따라 다른 경로에 저장됩니다. 이는 각 플랫폼에서 제공하는 로컬 저장소를 사용하기 때문입니다.
 
-- **Windows**: `레지스트리 편집기 -> HKEY_CURRENT_USER\Software\[CompanyName]\[ProductName]`{:.info} **레지스트리** 경로에 저장됩니다.
+- **Windows**: `레지스트리 편집기 -> HKEY_CURRENT_USER\Software\Unity\UnityEditor\[CompanyName]\[ProductName]`{:.info} **레지스트리** 경로에 저장됩니다.
 - **macOS**: `~/Library/Preferences/[CompanyName]/[ProductName].plist`{:.info} 경로에 저장됩니다.
 - **iOS**: `~/Library/Preferences/[CompanyName]/[ProductName].plist`{:.info} 경로에 저장됩니다.
 - **Android**: `SharedPreferences`{:.info}를 통해 **내부 저장소**에 저장됩니다.
@@ -184,5 +184,5 @@ PlayerPrefs로 저장된 데이터는 각 플랫폼에 따라 다른 경로에 �
 **간단한 설정**부터 **사용자 정보**까지 다양한 데이터를 간편하게 저장하고 불러올 수 있기 때문에, 게임 개발 시 유용하게 활용할 수 있습니다. 
 데이터를 저장하고 불러오는 기본적인 방법을 확실하게 이해하고 있는 것은 중요하며, 이를 통해 더 복잡한 데이터 관리에도 성공적으로 대응할 수 있을 것입니다.
 
-이상으로 PlayerPrefs를 활용한 게임 데이터 관리에 관한 포스팅을 마치겠습니다.    
+이상으로 **PlayerPrefs를 활용한 게임 데이터 관리**에 관한 포스팅을 마치겠습니다.    
 감사합니다.

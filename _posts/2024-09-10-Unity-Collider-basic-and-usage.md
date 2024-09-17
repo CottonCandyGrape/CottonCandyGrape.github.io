@@ -1,7 +1,7 @@
 ---
 layout: article 
-title : "[Unity3D] 유니티 충돌체(Collider)의 기초와 활용법 - CCGrape"
-key : "[Unity3D] 유니티 충돌체(Collider)의 기초와 활용법 - CCGrape"
+title : "[Unity3D] 유니티 충돌체(Collider)를 활용한 충돌 처리 - CCGrape"
+key : "[Unity3D] 유니티 충돌체(Collider)를 활용한 충돌 처리 - CCGrape"
 tags: Basic Physics 
 excerpt: 유니티에서 충돌을 감지하는 충돌체(Collider)의 기초 개념과 활용법에 대하여 알아봅니다. 
 ---
