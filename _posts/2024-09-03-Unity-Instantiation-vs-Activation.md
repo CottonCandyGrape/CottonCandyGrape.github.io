@@ -1,5 +1,5 @@
 ---
-title : "[Unity3D] 유니티 GameObject 생성(Instantiation)과 활성화(Activation)의 차이 - CCGrape"
+title : "유니티 GameObject 생성(Instantiation)과 활성화(Activation)의 차이 - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Script]
 description: 헷갈릴 수 있는 GameOjbect의 생성(Instantiation)과 활성화(Activation)의 차이에 대해서 알아봅니다. 추가로 Awake()와 Start() 함수의 차이에 대해서도 알아봅니다.

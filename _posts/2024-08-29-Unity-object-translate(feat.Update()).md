@@ -1,5 +1,5 @@
 ---
-title : "[Unity3D] 유니티 오브젝트 이동시키기(feat. Update()) - CCGrape"
+title : "유니티 오브젝트 이동시키기(feat. Update()) - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Script]
 description: Script를 이용하여 오브젝트를 이동시키는 방법을 알아봅니다. Update() 함수의 원리와 사용 방법을 알아봅니다.

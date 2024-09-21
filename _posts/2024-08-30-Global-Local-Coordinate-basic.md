@@ -1,5 +1,5 @@
 ---
-title : "[Unity3D] 글로벌 좌표계 로컬 좌표계 기초(+왼손 좌표계) - CCGrape"
+title : "유니티 글로벌 좌표계 로컬 좌표계 기초(+왼손 좌표계) - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Graphics]
 description: 글로벌 좌표계와 로컬 좌표계의 기본 개념과 차이점을 알아봅니다. 유니티에서 활용되는 왼손 좌표계도 알아봅니다.

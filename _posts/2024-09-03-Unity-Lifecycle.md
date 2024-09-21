@@ -1,5 +1,5 @@
 ---
-title : "[Unity3D] 유니티 생명주기(Lifecycle) - CCGrape"
+title : "유니티 생명주기(Lifecycle) - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Script]
 description: 유니티의 생명주기(Lifecycle)의 기초에 대해서 알아봅니다. 자주 사용되는 함수들의 특징과 활용 방법에 대해서 알아봅니다.

@@ -1,5 +1,5 @@
 ---
-title : "[Unity3D] 유니티 PlayerPrefs를 활용한 데이터 관리 - CCGrape"
+title : "유니티 PlayerPrefs를 활용한 데이터 관리 - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Script]
 description: 유니티에서 정보를 저장하는 유용한 방법 중 하나인 PlayerPrefs에 대해서 알아봅니다. 
