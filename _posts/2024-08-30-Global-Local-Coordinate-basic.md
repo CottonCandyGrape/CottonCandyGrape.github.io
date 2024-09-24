@@ -97,3 +97,6 @@ Tip : RGB 색깔 순서대로 XYZ 축 입니다.
 ![Left Right Handed Coordinate System]({{ site.baseurl }}/assets/postImgs/20240830/leftright.png)
 
 이 차이 때문에 모델링 소프트웨어(일반적으로 오른손 좌표계를 사용하는 프로그램)에서 가져온 모델의 방향이 다르게 보일 수 있습니다. 이를 인지하고, 필요한 경우 모델을 수동으로 조정해야 합니다.
+
+이만 포스팅을 마치겠습니다. 궁금한 점은 댓글로 남겨주세요.     
+감사합니다.
