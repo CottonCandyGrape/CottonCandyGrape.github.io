@@ -1,12 +1,12 @@
 ---
-title : "유니티 충돌체(Collider)의 기초와 활용법 - CCGrape"
+title : "유니티 Collider 기초와 활용법 - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Physics]
-description: 유니티에서 충돌을 감지하는 충돌체(Collider)의 기초 개념과 활용법에 대하여 알아봅니다. 
+description: 유니티에서 충돌을 감지하는 Collider의 기초 개념과 활용법에 대하여 알아봅니다. 
 ---
 
 ## 목차
-**[Step 0. 유니티에서 충돌체(Collider)를 배워야하는 이유](#step-0-유니티에서-충돌체collider를-배워야하는-이유)<br/>**
+**[Step 0. 유니티에서 Collider를 배워야하는 이유](#step-0-유니티에서-collider를-배워야하는-이유)<br/>**
 **[Step 1. Collider란?](#step-1-collider란)<br/>**
 **[Step 2. Rigidbody란?](#step-2-rigidbody란)<br/>**
 **[Step 3. Trigger와 Collision의 차이](#step-3-trigger와-collision의-차이)<br/>**
@@ -14,9 +14,9 @@ description: 유니티에서 충돌을 감지하는 충돌체(Collider)의 기�
 **[Step 5. 마무리 요약](#step-5-마무리-요약)<br/>**
 
 ---
-## Step 0. 유니티에서 충돌체(Collider)를 배워야하는 이유
+## Step 0. 유니티에서 Collider를 배워야하는 이유
 
-`충돌체(Collider)`를 아는 것은 **GameObject**들이 서로 **상호작용**하고 **물리적 충돌**을 처리하며 **다양한 이벤트를 처리**하는 데 필수적입니다. 
+**`Collider`**를 아는 것은 **GameObject**들이 서로 **상호작용**하고 **물리적 충돌**을 처리하며 **다양한 이벤트를 처리**하는 데 필수적입니다. 
 게임의 **몰입감**을 높이고 **자연스러운 움직임**과 **상호작용을 구현**하는데 **핵심적인 역할**을 하기 때문에 반드시 배워야 합니다. 
 
 충돌 감지는 `Collider`와 `Rigidbody`를 사용하여 처리하기 때문에 **Collider**와 **Rigidbody**의 기본 개념을 설명하고, `2D와 3D 차이`를 포함해 `Trigger()`와 `Collision()` 함수들에 대해 다루겠습니다. 
@@ -40,6 +40,11 @@ Collider는 GameObject의 **외곽선을 정의**하고, **다른 Collider와 �
   - **3D 환경**에서 사용되며, 3D 게임에서 캐릭터나 GameObject의 충돌을 감지하는 데 사용합니다. 
   - 종류로는 **BoxCollider**, **SphereCollider**, **CapsuleCollider** 등이 있습니다.
 
+> 충돌 감지를 하려면 충돌하는 물체 중 **적어도 하나에는 `Rigidbody` 컴포넌트가 필요**합니다.    
+예를 들어 A와 B가 충돌할때 **`Rigidbody`**가 **<u>둘 다 없으면</u> 충돌감지가 되지 않습니다.**     
+반대로 **A 또는 B 중 <u>적어도 하나에만 있거나 둘 다 있어도 충돌을 감지</u>**합니다. 
+{: .prompt-info}
+
 ---
 ## Step 2. Rigidbody란?
 
@@ -53,6 +58,8 @@ Collider는 GameObject의 **외곽선을 정의**하고, **다른 Collider와 �
   <br/>
 - **Rigidbody**
   - **3D 물리 엔진**을 사용하여 **3D GameObject의 물리적 특성을 제어**합니다.
+
+> 이번 포스팅에서는 `Collider`를 중점적으로 다루고 `Rigidbody`에 대해서는 추후 포스팅에서 자세히 다루겠습니다.
 
 ---
 ## Step 3. Trigger와 Collision의 차이
@@ -118,4 +125,5 @@ void OnCollisionEnter(Collision collision) {
 - `Collider`는 GameObject가 **충돌할 수 있는 외곽선을 정의**합니다.
 - `Rigidbody`는 GameObject에 **물리적인 특성**을 부여합니다.
 - `Trigger`는 <u>물리적 충돌 없이</u> **이벤트만 감지**하는데 사용되며, `Collision`은 **물리적인 충돌**을 처리합니다.
+  - 충돌 감지를 위해서 **충돌하는 물체들 중 적어도 1개에는 `Rigidbody` 컴포넌트가 필요**합니다.
 - **2D와 3D** 게임 개발 시 각 환경에 맞는 **Collider와 Rigidbody를 사용**해야 합니다.
