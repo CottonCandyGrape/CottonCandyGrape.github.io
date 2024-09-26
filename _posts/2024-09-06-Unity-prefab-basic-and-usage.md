@@ -1,5 +1,5 @@
 ---
-title : "유니티 Prefab의 기초와 활용법 - CCGrape"
+title : "유니티 Prefab 기초와 활용법 - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Script, Editor]
 description: 유니티에서 가장 편리한 기능 중 하나인 Prefab에 대해서 알아봅니다.
