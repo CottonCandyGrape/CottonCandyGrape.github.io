@@ -1,26 +1,26 @@
 ---
-title : "유니티 코루틴(Coroutine)의 모든 것 알아보기 - CCGrape"
+title : "유니티 Coroutine 알아보기 - CCGrape"
 categories: [Unity3D]
 tags: [Basic, Script]
-description: 유니티에서 코루틴(Coroutine)의 정의와 사용 이유부터 최적화 사용법과 Thread, Invoke와의 차이까지 모두 알아봅니다.
+description: 유니티에서 Coroutine의 정의와 사용 이유부터 최적화 사용법과 Thread, Invoke와의 차이까지 모두 알아봅니다.
 ---
 
 ## 목차
-**[Step 0. 코루틴(Coroutine)의 정의](#step-0-코루틴coroutine의-정의)<br/>**
-**[Step 1. 코루틴(Coroutine) 사용 이유](#step-1-코루틴coroutine-사용-이유)<br/>**
-**[Step 2. 코루틴(Coroutine) 최적화 사용법](#step-2-코루틴coroutine-최적화-사용법)<br/>**
-**[Step 3. 코루틴(Coroutine)과 Thread, Invoke 비교](#step-3-코루틴coroutine과-thread-invoke-비교)<br/>**
+**[Step 0. Coroutine의 정의](#step-0-coroutine의-정의)<br/>**
+**[Step 1. Coroutine 사용 이유](#step-1-coroutine-사용-이유)<br/>**
+**[Step 2. Coroutine 최적화 사용법](#step-2-coroutine-최적화-사용법)<br/>**
+**[Step 3. Coroutine과 Thread, Invoke 비교](#step-3-coroutine과-thread-invoke-비교)<br/>**
 **[Step 4. 마무리](#step-4-마무리)<br/>**
 
 ---
-**유니티에서 코루틴(Coroutine)**은 코드 실행을 **일시 중지**하고 **일정 시간 동안 대기**하거나 **조건을 기다리며 코드를 단계별로 실행**할 수 있습니다. 
+**유니티에서 Coroutine**은 코드 실행을 **일시 중지**하고 **일정 시간 동안 대기**하거나 **조건을 기다리며 코드를 단계별로 실행**할 수 있습니다. 
 이는 **복잡한 타이머, 반복 작업, 프레임 단위의 작업을 비동기적으로 처리**할 수 있어 게임 개발에 상당한 편리함을 줍니다. 
 하지만 단점도 있어 **남발하여 사용하지 않는 게 중요**합니다. 
 
-이번 포스팅에서는 유니티에서 **코루틴(Coroutine)**의 모든 것에 대해서 알아보겠습니다.
+이번 포스팅에서는 유니티에서 **Coroutine**의 모든 것에 대해서 알아보겠습니다.
 
 ---
-## **Step 0. 코루틴(Coroutine)의 정의**
+## **Step 0. Coroutine의 정의**
 
 ```cs
 IEnumerator CoroutineName()
@@ -39,25 +39,25 @@ IEnumerator CoroutineName()
             - **실제 시간**을 기준으로 한다.
         - **yield return new WaitForFixedUpdate()** : 모든 스크립트에서 모든 FixedUpdate()가 호출된 후에 실행
         - **yield return new WiatForEndOfFrame()** : 모든 카메라와 GUI가 렌더링을 완료하고 스크린에 프레임을 표시하기 전에 실행
-        - **yield break** : 코루틴(Coroutine) 끝내기
-        - **yield return StartCoroutine(OtherCoroutine())** : 해당 코루틴(Coroutine)이 완료될 때까지 기다렸다가 실행
+        - **yield break** : Coroutine 끝내기
+        - **yield return StartCoroutine(OtherCoroutine())** : 해당 Coroutine이 완료될 때까지 기다렸다가 실행
 
 ---
-## **Step 1. 코루틴(Coroutine) 사용 이유**
+## **Step 1. Coroutine 사용 이유**
 
 1. **시간의 경과에 따라** 코드를 실행시키고 싶을 때 사용합니다.
 2. **반복중 일시중지** 하거나 **특정 조건에 의해 코드를 실행, 반복**시키기 위해 사용합니다.
-3. 코루틴(Coroutine) 대신 Update()에서도 처리가 가능하지만 **Update()가 필요하지 않을 때 호출되는 것은 바람직하지 않습니다.**
+3. Coroutine 대신 Update()에서도 처리가 가능하지만 **Update()가 필요하지 않을 때 호출되는 것은 바람직하지 않습니다.**
 
 > **주의!!!**      
-**`코루틴(Coroutine)`**은 유니티 내부에서 **병렬처리**하기 때문에 **순서가 명확하지 않아** 문제가 생기면 **버그 잡기가 힘들다는 단점**이 있습니다.
+**`Coroutine`**은 유니티 내부에서 **병렬처리**하기 때문에 **순서가 명확하지 않아** 문제가 생기면 **버그 잡기가 힘들다는 단점**이 있습니다.
 따라서 **남발하여 사용하지 않는 것**이 중요합니다.
 {: .prompt-warning }
 
 ---
-## **Step 2. 코루틴(Coroutine) 최적화 사용법**
+## **Step 2. Coroutine 최적화 사용법**
 
-### ① **코루틴(Coroutine) 호출 방법 2가지**
+### ① **Coroutine 호출 방법 2가지**
 1. 직접 호출 방법
     ```cs
     StartCoroutine(Method());
@@ -88,7 +88,7 @@ IEnumerator Run()
 
 ### ③ **StopCorouinte() 사용법**
 
-- **'직접 호출 방식'으로 호출한 코루틴(Coroutine)은 string 방법으로 중지 시킬 수 없습니다.**
+- **'직접 호출 방식'으로 호출한 Coroutine은 string 방법으로 중지 시킬 수 없습니다.**
 
     ```cs
     StartCoroutine(Method());
@@ -102,31 +102,31 @@ IEnumerator Run()
     ```
 
 - **StopCoroutine()의 올바른 사용법**
-    - **string**으로 호출한 코루틴(Coroutine)은 **string**으로 멈추기.
-    - **직접 호출 방식**으로 호출한 코루틴(Coroutine)은 리턴값을 **변수에 저장**하고 그 **변수를 이용**해 멈추기.       
+    - **string**으로 호출한 Coroutine은 **string**으로 멈추기.
+    - **직접 호출 방식**으로 호출한 Coroutine은 리턴값을 **변수에 저장**하고 그 **변수를 이용**해 멈추기.       
 
         ```cs
-        //1개의 코루틴(Coroutine)만 돌리기 위해 변수에 저장
+        //1개의 Coroutine만 돌리기 위해 변수에 저장
         Coroutine runningCoroutine = null;
 
-        //이미 실행중인 코루틴(Coroutine)이 있다면, 정지 후 코루틴을 실행
+        //이미 실행중인 Coroutine이 있다면, 정지 후 코루틴을 실행
         if(runningCoroutine != null)
             StopCoroutine(runningCoroutine);
 
-        //코루틴(Coroutine)을 시작하는 동시에 저장한다.
+        //Coroutine을 시작하는 동시에 저장한다.
         runningCoroutine = StartCoroutine(Method());
         ```     
 
 > **Tip!!!**    
-- 코루틴(Coroutine)을 **여러 개 실행**한다면 **변수에 할당하는 방식**으로 해야합니다.
+- Coroutine을 **여러 개 실행**한다면 **변수에 할당하는 방식**으로 해야합니다.
 - **string 호출 방법은 이름이 같은 모든 코루틴을 조작합니다.**
 - **`StopAllCoroutines()`**는 **해당 스크립트 안에 있는 것만 중지**한다. 
 {: .prompt-info }
 
 ---
-## **Step 3. 코루틴(Coroutine)과 Thread, Invoke 비교**
+## **Step 3. Coroutine과 Thread, Invoke 비교**
 
-### ① **코루틴(Coroutine)의 특징**
+### ① **Coroutine의 특징**
 - 단일 **Main Thread**에서 동작합니다.
 - **여러 개의 일**을 나누어 **하나씩 처리**합니다.
 - **Thread** 보다 **메모리와 리소스를 덜 사용**합니다.
@@ -144,7 +144,7 @@ IEnumerator Run()
 
 ---
 
-- **코루틴(Coroutine)과 Thread의 흐름 비교**
+- **Coroutine과 Thread의 흐름 비교**
     ![Coroutine vs Thread]({{ site.baseurl }}/assets/postImgs/20240924/Coroutine_vs_Thread.png)
 
 ---
@@ -158,7 +158,7 @@ IEnumerator Run()
 
 ---
 
-- **코루틴(Coroutine)은 GameObject가 활성화 된 상태에서만 작동합니다.**
+- **Coroutine은 GameObject가 활성화 된 상태에서만 작동합니다.**
     - **스크립트 비활성화 시** : Coroutine, Invoke 둘 다 실행 유지
     - **GameObject 비활성화 시** : Coroutine은 정지, Invoke는 상태 유지
 
@@ -168,7 +168,7 @@ IEnumerator Run()
 
 ---
 ## Step 4. 마무리
-이번 포스팅에서는 **코루틴(Coroutine)의 정의, 사용 이유, 최적화 사용법, Thread, Invoke와 비교**까지 다루어 보았습니다. 
+이번 포스팅에서는 **Coroutine의 정의, 사용 이유, 최적화 사용법, Thread, Invoke와 비교**까지 다루어 보았습니다. 
 이 모든 것들을 고려하여 적재적소에 맞는 활용법을 이용하는 것이 게임 개발에 큰 도움이 됩니다. 
 
 궁금한 점은 댓글로 남겨주세요.      
