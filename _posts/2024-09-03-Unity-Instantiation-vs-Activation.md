@@ -74,7 +74,7 @@ description: 헷갈릴 수 있는 GameOjbect의 생성(Instantiation)과 활성�
   - 오브젝트가 생성됐지만 **스크립트(Script)가 비활성화** 되어있으면 `Awake()`만 호출되고 `Start()`는 호출되지 않습니다.
     - 다음 이미지는 **오브젝트가 생성됐지만 스크립트가 비활성화 된 상태**를 보여줍니다.
     ![Script Deactivation]({{ site.baseurl }}/assets/postImgs/20240903/scriptDeactivation.png)
-  - 앞선 [**[생명주기 포스팅]**](https://cottoncandygrape.github.io/posts/Unity-Instantiation-vs-Activation/)에서도 설명했다시피 `Start()` 함수는 **한 번만 호출**됩니다.
+  - 앞선 [**[생명주기 포스팅]**](https://cottoncandygrape.github.io/posts/Unity-Lifecycle/)에서도 설명했다시피 `Start()` 함수는 **한 번만 호출**됩니다.
     - 즉, 스크립트(Script)를 여러 번 활성, 비활성화 시켜도 `Start()` 함수는 한 번만 호출됩니다.
 
 ---
