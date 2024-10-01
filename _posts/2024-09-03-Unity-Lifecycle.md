@@ -53,8 +53,8 @@ void Start() {
 **생성** : 게임 오브젝트를 처음으로 메모리에 할당하고 씬에 추가하는 과정.   
 **활성화** : 그 오브젝트가 씬에서 동작할 수 있도록 상태를 변경하는 과정.    
 <i class="far fa-hand-point-right"></i>
-[**[생성과 활성화의 차이 포스팅]**](https://cottoncandygrape.github.io/2024/09/03/Unity-Instantiation-vs-Activation.html)
-{:.warning}
+[**[생성과 활성화의 차이 포스팅]**](https://cottoncandygrape.github.io/posts/Unity-Instantiation-vs-Activation/)
+
 
 ### ③ Update()
 
@@ -70,7 +70,7 @@ void Update() {
 }
 ```
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 Update() 함수 포스팅]**](https://cottoncandygrape.github.io/2024/08/29/Unity-object-translate(feat.Update()).html)
+[**[더 자세한 Update() 함수 포스팅]**](https://cottoncandygrape.github.io/posts/Unity-object-translate(feat.Update())/)
 
 
 ### ④ OnEnable() & OnDisable()

@@ -16,7 +16,7 @@ description: "생명주기(Lifecycle)에서 반복해서 실행되는 메서드 
 ---
 ## Step 0. 서론 
 
-저번 [**[생명주기(Lifecycle) 포스팅]**](https://cottoncandygrape.github.io/2024/09/03/Unity-Lifecycle.html)에서는 **기초**에 중점을 두었기 때문에 **반복되는 메서드**는 `Update()`만 다루었습니다.
+저번 [**[생명주기(Lifecycle) 포스팅]**](https://cottoncandygrape.github.io/posts/Unity-Lifecycle/)에서는 **기초**에 중점을 두었기 때문에 **반복되는 메서드**는 `Update()`만 다루었습니다.
 이번 포스팅에서는 `Update()` 만큼 중요한 `FixedUpdate()`와 `LateUpdate()`까지 학습하도록 하겠습니다.
 
 유니티에서 게임 오브젝트의 동작을 제어하는 스크립트는 주로 `FixedUpdate()`, `Update()`, `LateUpdate()` 메서드를 통해 이루어집니다. 이 메서드들은 각각 게임 오브젝트의 상태를 업데이트하는 데 사용되지만, 그 **<u>실행 시점</u>**과 **<u>목적</u>**이 다릅니다.
