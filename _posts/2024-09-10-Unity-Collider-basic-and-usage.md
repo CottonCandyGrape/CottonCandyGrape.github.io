@@ -59,7 +59,10 @@ Collider는 GameObject의 **외곽선을 정의**하고, **다른 Collider와 �
 - **Rigidbody**
   - **3D 물리 엔진**을 사용하여 **3D GameObject의 물리적 특성을 제어**합니다.
 
-> 이번 포스팅에서는 `Collider`를 중점적으로 다루고 `Rigidbody`에 대해서는 추후 포스팅에서 자세히 다루겠습니다.
+이번 포스팅에서는 `Collider`를 중점적으로 다루겠습니다. `Rigidbody`에 대한 더 자세한 포스팅은 다음 링크를 참고해주세요.
+
+<i class="far fa-hand-point-right"></i>
+[**[더 자세한 Rigidbody 포스팅]**](https://cottoncandygrape.github.io/posts/Unity-Rigidbody-property-and-method/)
 
 ---
 ## Step 3. Trigger와 Collision의 차이
