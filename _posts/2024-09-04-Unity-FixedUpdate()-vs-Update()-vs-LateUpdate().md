@@ -46,6 +46,10 @@ void FixedUpdate() {
 }
 ```
 
+> Time.timeScale == 0 이면 **Physics Loop**가 실행되지 않습니다.    
+**=> FixedUpdate() 실행 안됨.**
+{: .prompt-info}
+
 ---
 ## Step 2. Update()
 
