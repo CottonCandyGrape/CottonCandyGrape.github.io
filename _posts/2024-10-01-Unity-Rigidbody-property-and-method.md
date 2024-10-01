@@ -6,7 +6,7 @@ description: 유니티에서 Rigidbody는 GameObject에 물리적 특성을 부�
 ---
 
 ## 목차
-**[Step 1. Rigidbody의 속성](#step-1-rigidbody의-속성)<br/>**
+**[Step 1. Rigidbody 속성](#step-1-rigidbody-속성)<br/>**
 **[Step 2. Rigidbody 자주 사용되는 함수](#step-2-rigidbody-자주-사용되는-함수)<br/>**
 **[Step 3. 마무리](#step-3-마무리)<br/>**
 
