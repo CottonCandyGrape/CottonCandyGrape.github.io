@@ -2,12 +2,12 @@
 title : "버블 정렬(Bubble Sort) 알아보기 (python, C++, C#) - CCGrape"
 categories: [Algorithm]
 tags: [Sort]
-description: 버블 정렬(Bubble Sort)의 원리 및 동작 과정, 특징, 장단점에 대해서 알아봅니다. Python, C++, C#으로 예시코드를 구현합니다.
+description: 버블 정렬(Bubble Sort)의 개념 및 동작 과정, 특징, 장단점에 대해서 알아봅니다. Python, C++, C#으로 예시코드를 구현합니다.
 math: true
 ---
 
 ## 목차
-**[1. 원리 및 동작 과정](#버블-정렬bubble-sort-원리-및-동작-과정)<br/>**
+**[1. 개념 및 동작 과정](#버블-정렬bubble-sort-개념-및-동작-과정)<br/>**
 **[2. 예시 및 구현 코드](#버블-정렬bubble-sort-예시-및-구현-코드)<br/>**
 **[3. 특징](#버블-정렬bubble-sort-특징)<br/>**
 **[4. 장단점](#버블-정렬bubble-sort-장단점)<br/>**
@@ -16,9 +16,9 @@ math: true
 {: .prompt-info}
 
 ---
-## **버블 정렬(Bubble Sort) 원리 및 동작 과정**
+## **버블 정렬(Bubble Sort) 개념 및 동작 과정**
 
-### **원리** 
+### **개념** 
 
 **버블 정렬(Bubble Sort)**의 핵심은 **인접한 두 원소를 비교하고 교환**하면서 큰 값을 뒤로 밀어내는 것입니다. 
 이 과정이 반복되면서 가장 큰 값이 맨 뒤로, 그 다음 큰 값이 그 앞에, 이런 식으로 정렬됩니다.     

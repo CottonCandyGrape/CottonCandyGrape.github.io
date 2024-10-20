@@ -2,12 +2,12 @@
 title : "삽입 정렬(Insertion Sort) 알아보기 (python, C++, C#) - CCGrape"
 categories: [Algorithm]
 tags: [Sort]
-description: 삽입 정렬(Insertion Sort)의 원리 및 동작 과정, 특징, 장단점에 대해서 알아봅니다. Python, C++, C#으로 예시코드를 구현합니다.
+description: 삽입 정렬(Insertion Sort)의 개념 및 동작 과정, 특징, 장단점에 대해서 알아봅니다. Python, C++, C#으로 예시코드를 구현합니다.
 math: true
 ---
 
 ## 목차
-**[1. 원리 및 동작 과정](#삽입-정렬insertion-sort-원리-및-동작-과정)<br/>**
+**[1. 개념 및 동작 과정](#삽입-정렬insertion-sort-개념-및-동작-과정)<br/>**
 **[2. 예시 및 구현 코드](#삽입-정렬insertion-sort-예시-및-구현-코드)<br/>**
 **[3. 특징](#삽입-정렬insertion-sort-특징)<br/>**
 **[4. 장단점](#삽입-정렬insertion-sort-장단점)<br/>**
@@ -16,9 +16,9 @@ math: true
 {: .prompt-info}
 
 ---
-## **삽입 정렬(Insertion Sort) 원리 및 동작 과정**
+## **삽입 정렬(Insertion Sort) 개념 및 동작 과정**
 
-### **원리** 
+### **개념** 
 
 **삽입 정렬(Insertion Sort)**은 **특정한 데이터를 적절한 위치**에 **삽입**한다는 의미에서 **삽입 정렬(Insertion Sort)**이라고 부릅니다.
 **첫 번째 요소는 이미 정렬된 것으로 가정**하고, **두 번째 요소부터 시작**하여 각 요소를 왼쪽의 정렬된 배열 부분에 삽입하여 전체를 정렬된 상태로 만듭니다.

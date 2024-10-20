@@ -2,12 +2,12 @@
 title : "선택 정렬(Selection Sort) 알아보기 (python, C++, C#) - CCGrape"
 categories: [Algorithm]
 tags: [Sort]
-description: 선택 정렬(Selection Sort)의 원리 및 동작 과정, 특징, 장단점에 대해서 알아봅니다. Python, C++, C#으로 예시코드를 구현합니다.
+description: 선택 정렬(Selection Sort)의 개념 및 동작 과정, 특징, 장단점에 대해서 알아봅니다. Python, C++, C#으로 예시코드를 구현합니다.
 math: true
 ---
 
 ## 목차
-**[1. 원리 및 동작 과정](#선택-정렬selection-sort-원리-및-동작-과정)<br/>**
+**[1. 개념 및 동작 과정](#선택-정렬selection-sort-개념-및-동작-과정)<br/>**
 **[2. 예시 및 구현 코드](#선택-정렬selection-sort-예시-및-구현-코드)<br/>**
 **[3. 특징](#선택-정렬selection-sort-특징)<br/>**
 **[4. 장단점](#선택-정렬selection-sort-장단점)<br/>**
@@ -16,9 +16,9 @@ math: true
 {: .prompt-info}
 
 ---
-## **선택 정렬(Selection Sort) 원리 및 동작 과정**
+## **선택 정렬(Selection Sort) 개념 및 동작 과정**
 
-### **원리** 
+### **개념** 
 
 **선택 정렬(Selection Sort)**은 <u>비교 기반의 단순 정렬 알고리즘</u>입니다.   
 이 알고리즘은 주어진 리스트에서 가장 작은 원소를 찾고, 그것을 현재 정렬되지 않은 부분의 가장 앞에 있는 원소와 교환하는 과정을 반복합니다. 
