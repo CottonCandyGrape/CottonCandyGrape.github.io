@@ -175,77 +175,77 @@ math: true
 
 - **C#**
 
-```csharp
-using System;
-
-class MergeSort
-{
-    public static void Merge(int[] arr, int left, int mid, int right)
+    ```csharp
+    using System;
+    
+    class MergeSort
     {
-        int n1 = mid - left + 1;
-        int n2 = right - mid;
-
-        int[] L = new int[n1];
-        int[] R = new int[n2];
-
-        for (int i = 0; i < n1; i++) //왼쪽 절반
-            L[i] = arr[left + i];
-        for (int j = 0; j < n2; j++) //오른쪽 절반
-            R[j] = arr[mid + 1 + j];
-
-        int k = left;
-        int i = 0, j = 0;
-
-        while (i < n1 && j < n2) // 왼쪽과 오른쪽 배열을 비교하여 정렬
+        public static void Merge(int[] arr, int left, int mid, int right)
         {
-            if (L[i] <= R[j])
+            int n1 = mid - left + 1;
+            int n2 = right - mid;
+    
+            int[] L = new int[n1];
+            int[] R = new int[n2];
+    
+            for (int i = 0; i < n1; i++) //왼쪽 절반
+                L[i] = arr[left + i];
+            for (int j = 0; j < n2; j++) //오른쪽 절반
+                R[j] = arr[mid + 1 + j];
+    
+            int k = left;
+            int i = 0, j = 0;
+    
+            while (i < n1 && j < n2) // 왼쪽과 오른쪽 배열을 비교하여 정렬
+            {
+                if (L[i] <= R[j])
+                {
+                    arr[k] = L[i];
+                    i++;
+                }
+                else
+                {
+                    arr[k] = R[j];
+                    j++;
+                }
+                k++;
+            }
+    
+            // 남은 요소들 추가
+            while (i < n1)
             {
                 arr[k] = L[i];
                 i++;
+                k++;
             }
-            else
+    
+            while (j < n2)
             {
                 arr[k] = R[j];
                 j++;
+                k++;
             }
-            k++;
         }
-
-        // 남은 요소들 추가
-        while (i < n1)
+    
+        public static void MergeSortArray(int[] arr, int left, int right)
         {
-            arr[k] = L[i];
-            i++;
-            k++;
+            if (left < right)
+            {
+                int mid = left + (right - left) / 2; //중간 인덱스 계산
+    
+                MergeSortArray(arr, left, mid); //왼쪽 절반 재귀 정렬
+                MergeSortArray(arr, mid + 1, right); //오른쪽 절반 재귀 정렬
+                Merge(arr, left, mid, right);
+            }
         }
-
-        while (j < n2)
+    
+        static void Main(string[] args)
         {
-            arr[k] = R[j];
-            j++;
-            k++;
+            int[] arr = { 38, 27, 43, 3, 9, 82, 10 };
+            MergeSortArray(arr, 0, arr.Length - 1); // [3, 9, 10, 27, 38, 43, 82]
         }
     }
-
-    public static void MergeSortArray(int[] arr, int left, int right)
-    {
-        if (left < right)
-        {
-            int mid = left + (right - left) / 2; //중간 인덱스 계산
-
-            MergeSortArray(arr, left, mid); //왼쪽 절반 재귀 정렬
-            MergeSortArray(arr, mid + 1, right); //오른쪽 절반 재귀 정렬
-            Merge(arr, left, mid, right);
-        }
-    }
-
-    static void Main(string[] args)
-    {
-        int[] arr = { 38, 27, 43, 3, 9, 82, 10 };
-        MergeSortArray(arr, 0, arr.Length - 1); // [3, 9, 10, 27, 38, 43, 82]
-    }
-}
-```
+    ```
 
 ---
 ## **병합 정렬(Merge Sort) 특징**
