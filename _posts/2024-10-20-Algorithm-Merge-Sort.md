@@ -250,8 +250,7 @@ math: true
 ---
 ## **병합 정렬(Merge Sort) 특징**
 
-- **제자리 정렬 (In-place Sort)** 
-    - **제자리 정렬(in-place sorting) 알고리즘이 아닙니다.** 
+- **제자리 정렬(in-place sorting) 알고리즘이 아닙니다.** 
     - 데이터 구조를 변경하지 않고 정렬할 수 있는 방법이 아니기 때문에, 추가적인 메모리를 사용해야 합니다.
 
 - **안정 정렬 (Stable Sort)** 
