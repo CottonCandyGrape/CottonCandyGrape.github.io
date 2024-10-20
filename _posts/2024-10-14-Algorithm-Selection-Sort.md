@@ -173,6 +173,13 @@ math: true
     - 시간 복잡도가 $O(n^2)$ 로, **대규모 데이터 세트에 비효율적**입니다.
     - 실질적으로 사용되기보다는 **교육 목적**으로 주로 사용됩니다.
 
+---
+## 다른 정렬 알아보기
+[버블 정렬(Bubble Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Bubble-Sort/)
+[삽입 정렬(Insertion Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Insertion-Sort/)
+[퀵 정렬(Quick Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Quick-Sort/)
+[병합 정렬(Merge Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)
+[힙 정렬(Heap Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)
 
 ---
 궁금한 점은 댓글로 남겨주세요.      

@@ -233,6 +233,13 @@ math: true
 퀵 정렬은 **빠르고 메모리 효율적**인 장점이 있지만, 피벗 선택에 따라 **최악의 시간 복잡도** $O(n^2)$ 가 될 위험이 있습니다.
 이러한 문제를 개선하기 위해 **랜덤 피벗 선택**과 같은 최적화 기법이 자주 사용됩니다.
 
+---
+## 다른 정렬 알아보기
+[버블 정렬(Bubble Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Bubble-Sort/)
+[삽입 정렬(Insertion Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Insertion-Sort/)
+[선택 정렬(Selection Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)
+[병합 정렬(Merge Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)
+[힙 정렬(Heap Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)
 
 ---
 궁금한 점은 댓글로 남겨주세요.      

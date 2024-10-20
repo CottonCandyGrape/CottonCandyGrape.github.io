@@ -286,5 +286,13 @@ math: true
         - 재귀적으로 구현할 경우, 함수 호출에 따른 오버헤드가 발생할 수 있습니다.
 
 ---
+## 다른 정렬 알아보기
+[버블 정렬(Bubble Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Bubble-Sort/)
+[삽입 정렬(Insertion Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Insertion-Sort/)
+[선택 정렬(Selection Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)
+[퀵 정렬(Quick Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Quick-Sort/)
+[힙 정렬(Heap Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)
+
+---
 궁금한 점은 댓글로 남겨주세요.      
 감사합니다.
