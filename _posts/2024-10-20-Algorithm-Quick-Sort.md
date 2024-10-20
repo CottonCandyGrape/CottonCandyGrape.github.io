@@ -241,6 +241,7 @@ math: true
 - **[선택 정렬(Selection Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)**
 - **[병합 정렬(Merge Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)**
 - **[힙 정렬(Heap Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)**
+- **[계수 정렬(Counting Sort) 포스팅](http://localhost:4000/posts/Algorithm-Counting-Sort/)**
 
 ---
 궁금한 점은 댓글로 남겨주세요.      
