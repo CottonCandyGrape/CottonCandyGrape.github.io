@@ -11,6 +11,7 @@ math: true
 **[2. 예시 및 구현 코드](#퀵-정렬quick-sort-예시-및-구현-코드)<br/>**
 **[3. 특징](#퀵-정렬quick-sort-특징)<br/>**
 **[4. 장단점](#퀵-정렬quick-sort-장단점)<br/>**
+**[5. 다른 정렬 알아보기](#다른-정렬-알아보기)<br/>**
 
 ---
 ## **퀵 정렬(Quick Sort) 개념 및 동작 과정**
@@ -235,11 +236,11 @@ math: true
 
 ---
 ## 다른 정렬 알아보기
-[버블 정렬(Bubble Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Bubble-Sort/)
-[삽입 정렬(Insertion Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Insertion-Sort/)
-[선택 정렬(Selection Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)
-[병합 정렬(Merge Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)
-[힙 정렬(Heap Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)
+- **[버블 정렬(Bubble Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Bubble-Sort/)**
+- **[삽입 정렬(Insertion Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Insertion-Sort/)**
+- **[선택 정렬(Selection Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)**
+- **[병합 정렬(Merge Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)**
+- **[힙 정렬(Heap Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)**
 
 ---
 궁금한 점은 댓글로 남겨주세요.      
