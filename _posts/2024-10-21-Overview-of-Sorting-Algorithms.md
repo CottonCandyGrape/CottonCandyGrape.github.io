@@ -36,7 +36,7 @@ math: true
 5. 모든 원소가 정렬될 때까지 과정을 반복합니다.
 
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 버블 정렬 포스팅]**](http://cottoncandygrape.github.io/posts/Algorithm-Bubble-Sort/)
+[**[더 자세한 버블 정렬 포스팅]**](https://cottoncandygrape.github.io/posts/Algorithm-Bubble-Sort/)
 
 ---
 ## **삽입 정렬(Insertion Sort) 개념 및 동작 과정**
@@ -56,7 +56,7 @@ math: true
 5. 전체 배열이 정렬될 때까지 1~4 과정을 반복합니다.
 
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 삽입 정렬 포스팅]**](http://cottoncandygrape.github.io/posts/Algorithm-Insertion-Sort/)
+[**[더 자세한 삽입 정렬 포스팅]**](https://cottoncandygrape.github.io/posts/Algorithm-Insertion-Sort/)
 
 ---
 ## **선택 정렬(Selection Sort) 개념 및 동작 과정**
@@ -72,7 +72,7 @@ math: true
 4. 배열의 끝에 도달하면 정렬이 완료됩니다.
 
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 선택 정렬 포스팅]**](http://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)
+[**[더 자세한 선택 정렬 포스팅]**](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)
 
 ---
 ## **퀵 정렬(Quick Sort) 개념 및 동작 과정**
@@ -98,7 +98,7 @@ math: true
     - 결합 과정이 따로 필요하지 않고 **재귀 호출이 완료되면서 자연스럽게 리스트가 정렬됩니다.**
     
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 퀵 정렬 포스팅]**](http://cottoncandygrape.github.io/posts/Algorithm-Quick-Sort/)
+[**[더 자세한 퀵 정렬 포스팅]**](https://cottoncandygrape.github.io/posts/Algorithm-Quick-Sort/)
 
 ---
 ## **병합 정렬(Merge Sort) 개념 및 동작 과정**
@@ -121,7 +121,7 @@ math: true
    - 한 배열의 모든 요소가 다 추가되면, 다른 배열에 남아 있는 요소들을 모두 추가합니다.
 
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 병합 정렬 포스팅]**](http://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)
+[**[더 자세한 병합 정렬 포스팅]**](https://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)
 
 ---
 ## **힙 정렬(Heap Sort) 개념 및 동작 과정**
@@ -148,7 +148,7 @@ math: true
    - 이 과정을 배열의 크기가 1이 될 때까지 반복합니다.
 
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 힙 정렬 포스팅]**](http://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)
+[**[더 자세한 힙 정렬 포스팅]**](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)
 
 ---
 ## **계수 정렬(Counting Sort) 개념 및 동작 과정**
@@ -173,7 +173,7 @@ math: true
     - **이 과정에서 안정 정렬이 보장됨.**
 
 <i class="far fa-hand-point-right"></i>
-[**[더 자세한 계수 정렬 포스팅]**](http://cottoncandygrape.github.io/posts/Algorithm-Counting-Sort/)
+[**[더 자세한 계수 정렬 포스팅]**](https://cottoncandygrape.github.io/posts/Algorithm-Counting-Sort/)
 
 ---
 궁금한 점은 댓글로 남겨주세요.      

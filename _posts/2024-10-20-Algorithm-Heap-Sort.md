@@ -309,7 +309,7 @@ math: true
 - **[선택 정렬(Selection Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)**
 - **[퀵 정렬(Quick Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Quick-Sort/)**
 - **[병합 정렬(Merge Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Merge-Sort/)**
-- **[계수 정렬(Counting Sort) 포스팅](http://cottoncandygrape.github.io/posts/Algorithm-Counting-Sort/)**
+- **[계수 정렬(Counting Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Counting-Sort/)**
 
 ---
 궁금한 점은 댓글로 남겨주세요.      
