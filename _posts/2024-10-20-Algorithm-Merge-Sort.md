@@ -33,8 +33,6 @@ math: true
    - **두 개의 정렬된 배열을 비교하여 작은 요소부터 순서대로 새로운 배열에 추가합니다.**
    - 한 배열의 모든 요소가 다 추가되면, 다른 배열에 남아 있는 요소들을 모두 추가합니다.
 
-
-
 ---
 ## **병합 정렬(Merge Sort) 예시 및 구현 코드**
 
@@ -293,7 +291,7 @@ math: true
 - **[선택 정렬(Selection Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Selection-Sort/)**
 - **[퀵 정렬(Quick Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Quick-Sort/)**
 - **[힙 정렬(Heap Sort) 포스팅](https://cottoncandygrape.github.io/posts/Algorithm-Heap-Sort/)**
-- **[계수 정렬(Counting Sort) 포스팅](http://localhost:4000/posts/Algorithm-Counting-Sort/)**
+- **[계수 정렬(Counting Sort) 포스팅](http://cottoncandygrape.github.io/posts/Algorithm-Counting-Sort/)**
 
 ---
 궁금한 점은 댓글로 남겨주세요.      
