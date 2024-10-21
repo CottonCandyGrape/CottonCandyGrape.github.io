@@ -2,7 +2,7 @@
 title : "정렬 알고리즘 개념 및 동작 원리 총 정리 - CCGrape"
 categories: [Algorithm]
 tags: [Sort]
-description: 꼭 알아두어야 할 정렬 알고리즘들의 기본 개념 및 동작 원리를 간략하게 총 정리 합니다.
+description: 버블, 삽입, 선택, 퀵, 병합, 힙, 계수 정렬 알고리즘의 기본 개념 및 동작 원리를 간략하게 총 정리 합니다.
 math: true
 ---
 
