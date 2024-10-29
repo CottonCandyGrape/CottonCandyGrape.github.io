@@ -23,6 +23,9 @@ math: true
 **힙**은 **완전 이진 트리의 형태**를 가지며, 특정 성질을 만족합니다. 
 최대 힙의 경우, 부모 노드의 값이 자식 노드의 값보다 크거나 같아야 하며, 최소 힙의 경우는 반대입니다. 
 
+<i class="far fa-hand-point-right"></i>
+[**[Heap 자료구조 포스팅]**](https://cottoncandygrape.github.io/posts/DataStructure-Heap/)
+
 ### **동작 과정**
 
 > **최대 힙(Max Heap)** 기준으로 설명하겠습니다.
