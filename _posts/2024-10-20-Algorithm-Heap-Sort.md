@@ -1,5 +1,5 @@
 ---
-title : "힙 정렬(Heap Sort) 알아보기 (python, C++, C#) - CCGrape"
+title : "힙 정렬(Heap Sort) 알아보기 (Python, C++, C#) - CCGrape"
 categories: [Algorithm]
 tags: [Sort]
 description: 힙 정렬(Heap Sort)의 개념 및 동작 과정, 특징, 장단점에 대해서 알아봅니다. Python, C++, C#으로 예시코드를 구현합니다.
