@@ -1,5 +1,5 @@
 ---
-title : "Heap 자료구조 총 정리 (python, C++, C#) - CCGrape"
+title : "Heap 자료구조 알아보기 (python, C++, C#) - CCGrape"
 categories: [Data Structure]
 tags: [Non-Linear]
 description: 
