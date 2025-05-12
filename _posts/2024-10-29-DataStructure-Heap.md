@@ -2,7 +2,7 @@
 title : "Heap 자료구조 알아보기 (python, C++, C#) - CCGrape"
 categories: [Data Structure]
 tags: [Non-Linear]
-description: 
+description: Heap 자료구조의 개념 및 특징, 예시 등을 알아봅니다. 
 math: true
 ---
 
